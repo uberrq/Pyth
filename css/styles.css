@@ -1,0 +1,115 @@
+main .container {
+    padding: 200px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(25, 25, 35);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 118px;
+    padding-bottom: 150px;
+    overflow: auto;
+  }
+
+  nav::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  nav::-webkit-scrollbar-track {
+    background-color: rgb(40, 40, 40);
+  }
+  
+  nav::-webkit-scrollbar-thumb {
+    background-color: rgb(60, 60, 70);
+  }
+  
+  nav::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(70, 70, 80);
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    color: rgb(92, 255, 173);
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    color: yellow;
+    border-bottom: 2px solid yellow;
+  }
+
+  body {
+    background-color: rgb(20, 20, 30);
+}
+
+h1 {
+    color: yellow;
+}
+
+.line {
+  border-bottom: 1px solid yellow;
+  color: yellow;
+  margin-bottom: 20px;
+}
+
+.textblock {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: azure;
+}
+
+.textblock a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(92, 255, 173);
+  text-decoration: none;
+}
+
+.textblock a:hover{
+  color: rgb(202, 255, 228);
+}
+
+.resources a{
+  color: rgb(92, 255, 173);
+}
+
+.resources a:hover{
+  color: rgb(193, 255, 224);
+}
+
+.lineblocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lineblock1 {
+  height: 100px;
+  width: 200px;
+  border: 1px solid rgb(70, 70, 80);
+  background-color: rgb(25, 25, 35);
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.codeblack {
+  background-color: rgb(30, 30, 40);
+  border: 1px solid rgb(70, 70, 80);
+  font-family: 'Courier New', Courier, monospace;
+}
