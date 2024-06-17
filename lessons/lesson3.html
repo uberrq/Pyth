@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pythonlearning</title>
+    <link rel="stylesheet" type="text/css" href="../css/header_footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/responsive/scale.css">
+</head>
+<body>
+
+    <header class="container-fluid">
+        <div class="container d-flex">
+            <h1>Pythonlearning</h1>
+            <img class="burgericon" src="images/burger50.png" alt="Menu">
+            <nav class="menu">
+                <a href="../index.html">Главная</a>
+                <a href="../lessons.html">Уроки</a>
+                <a href="../tests.html">Задания</a>
+                <a href="../sources.html">Ресурсы</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="line"><h2>Установка Python</h2></div>
+        <ul>
+          <li><a href="lesson1.html">Установка на различных OC</a></li>
+          <li><a href="lesson2.html">Советы по настройке среды разработки</a></li>
+        </ul>
+        <div class="line"><h2>Основы</h2></div>
+        <ul>
+            <li><a href="lesson3.html">Переменные и типы данных</a></li>
+            <li><a href="lesson4.html">Оператор и выражения</a></li>
+            <li><a href="lesson5.html">Ввод и вывод</a></li>
+            <li><a href="lesson6.html">Управляющие конструкции</a></li>
+          </ul>
+          <div class="line"><h2>Функции</h2></div>
+        <ul>
+            <li><a href="lesson7.html">Определение и вызов функций</a></li>
+            <li><a href="lesson8.html">Аргументы и возвращаемые значения</a></li>
+            <li><a href="lesson9.html">Встроенные функции</a></li>
+          </ul>
+          <div class="line"><h2>Модули и библиотеки</h2></div>
+        <ul>
+            <li><a href="lesson10.html">Использование стандартных библиотек</a></li>
+            <li><a href="lesson11.html">Подключение и импортирование внешних модулей</a></li>
+            <li><a href="lesson12.html">Создание собственных модулей</a></li>
+          </ul>
+          <div class="line"><h2>Обработка ошибок</h2></div>
+        <ul>
+            <li><a href="lesson13.html">Исключения и их обработка</a></li>
+            <li><a href="lesson14.html">Пользовательские исключения</a></li>
+          </ul>
+      </nav>
+
+
+    <main class="container-fluid">
+        <div class="container">
+            <div class="textblock">
+                <h2>Переменные и типы данных</h2><br><br>
+                <h3>Что такое переменная?</h3>
+                <p>Переменная - это именованная ячейка в памяти компьютера, предназначенная для хранения данных. Переменные позволяют нам сохранять, изменять и использовать данные в нашей программе.</p><br>
+                <h3>Как объявить переменную в Python?</h3>
+                <p>Для объявления переменной в Python достаточно присвоить ей значение. Вот пример:</p><br>
+                <div class="codeblack">
+                    <p>name = "John"</p>
+                    <p>age = 25</p>
+                    <p>is_student = True</p>
+                </div><br>
+                <p>В этом примере мы объявили три переменные: name, age и is_student. Имена переменных должны быть осмысленными и описывать то, что они хранят.</p><br>
+                <h3>Типы данных в Python</h3>
+                <p>Python является языком с динамической типизацией, что означает, что тип данных переменной определяется во время выполнения программы. Рассмотрим основные типы данных в Python:</p><br>
+                <h3>1. Числовые типы:</h3>
+                <p>- Целые числа (int): 42, -10</p>
+                <p>- Числа с плавающей точкой (float): 3.14, -2.5</p>
+                <p>- Комплексные числа (complex): 2+3j, -4-2j</p><br>
+                <h3>2. Строковый тип (str): "Hello, world!", 'Python is fun'</h3><br>
+                <h3>3. Логический тип (bool): True, False</h3><br>
+                <h3>4. Последовательные типы:</h3><br>
+                <p>- Списки (list): [1, 2, 3, "four"]</p>
+                <p>- Кортежи (tuple): (1, 2, 3, "four")</p>
+                <p>- Диапазоны (range): range(1, 11)</p><br>
+                <h3>5. Словарный тип (dict): {"name": "John", "age": 25}</h3><br>
+                <h3>6. Множественный тип (set): {1, 2, 3, 4, 5}</h3><br>
+                <p>Мы можем проверить тип данных переменной, используя функцию type():</p><br>
+                <div class="codeblack">
+                    <p>print(type(name))</p>
+                    <p>print(type(age))</p>
+                    <p>print(type(is_student))</p>
+                </div><br>
+                <h3>Операции с переменными</h3>
+                <p>Мы можем выполнять различные операции с переменными, например, арифметические:</p><br>
+                <div class="codeblack">
+                    <p>a = 10</p>
+                    <p>b = 3</p>
+                    <p>print(a + b)</p>
+                    <p>print(a - b)</p>
+                    <p>print(a * b)</p>
+                    <p>print(a / b)</p>
+                    <p>print(a // b)</p>
+                    <p>print(a % b)</p>
+                </div><br>
+                <p>Также мы можем присваивать новые значения переменным:</p><br>
+            <div class="codeblack">
+                <p>name = "Alice"</p>
+                <p>name = "Bob"</p>
+                <p>print(name)</p>
+            </div><br>
+            <p>Кроме того, мы можем использовать переменные в строковых литералах с помощью f-строк:</p>
+            <div class="codeblack">
+                <p>age = 25</p>
+                <p>print(f"My name is {name} and I'm {age} years old.")</p>
+            </div><br>
+            <br><p><a href="../tests/test1.html">Пройти тест по теме "Переменные и типы данных"</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid">
+        <div class="container copyrights">
+            <p>Все права защищены &copy; 2024</p>
+        </div>
+    </footer>
+
+</body>
+</html>
